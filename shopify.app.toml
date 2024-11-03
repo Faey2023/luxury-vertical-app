@@ -3,22 +3,23 @@
 client_id = "a10fa84e080b56308f06ae25a5a35015"
 name = "luxury-vertical-app"
 handle = "luxury-vertical-app-14"
-application_url = "https://cherry-strengthen-prep-deficit.trycloudflare.com"
+application_url = "https://searched-warcraft-cliff-commissioners.trycloudflare.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
 dev_store_url = "faey2023.myshopify.com"
+include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_inventory,read_products,write_customers,write_discounts,write_products"
 
 [auth]
 redirect_urls = [
-  "https://cherry-strengthen-prep-deficit.trycloudflare.com/auth/callback",
-  "https://cherry-strengthen-prep-deficit.trycloudflare.com/auth/shopify/callback",
-  "https://cherry-strengthen-prep-deficit.trycloudflare.com/api/auth/callback"
+  "https://searched-warcraft-cliff-commissioners.trycloudflare.com/auth/callback",
+  "https://searched-warcraft-cliff-commissioners.trycloudflare.com/auth/shopify/callback",
+  "https://searched-warcraft-cliff-commissioners.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

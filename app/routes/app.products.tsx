@@ -59,7 +59,7 @@ const Products = () => {
       <Layout>
         <Layout.Section>
           <Card>
-            <h1>New App</h1>
+            <h1>Products Page</h1>
           </Card>
         </Layout.Section>
         <Layout.Section>
